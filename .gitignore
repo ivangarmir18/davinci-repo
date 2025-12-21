@@ -1,0 +1,33 @@
+# Ignorar brutos y vídeos pesados
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.wav
+efectos de sonido/efectos/
+
+
+# Carpetas de DaVinci Resolve generadas
+.DaVinciResolveCache/
+CacheClip/
+RenderCache/
+ProxyMedia/
+OptimizedMedia/
+Capture/
+Gallery/
+
+# Temporales
+*.tmp
+*.temp
+*.bak
+
+# Bases de datos de DaVinci
+*.db
+*.db-wal
+*.db-shm
+
+# Sistemas
+.DS_Store
+Thumbs.db
+desktop.ini
